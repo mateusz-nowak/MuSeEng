@@ -8,8 +8,6 @@ namespace MuSeEng
 {
     interface IPlaylist
     {
-        void AddPlaylist();
-        void DeletePlaylist();
-        void OpenPlaylist();
+
     }
 }

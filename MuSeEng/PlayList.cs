@@ -21,14 +21,5 @@ namespace MuSeEng
             set;
         }
 
-        public void DeletePlaylist()
-        {
-            
-        }
-
-        public void OpenPlaylist()
-        {
-            
-        }
     }
 }
