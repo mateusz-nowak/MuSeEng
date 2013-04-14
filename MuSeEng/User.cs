@@ -14,7 +14,6 @@ namespace MuSeEng
         {
             UserName = username;
             Pass = password;
-           
         }
         public string Name
         {
@@ -27,15 +26,11 @@ namespace MuSeEng
             {
                 Pass = value;
             }
-
         }
         public List<PlayList> playlists
         {
             get;
             set;
         }
-
-
-
     }
 }
