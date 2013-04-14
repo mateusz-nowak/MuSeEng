@@ -8,27 +8,28 @@ namespace MuSeEng
 {
     class User : IUser
     {
-        private string UserName;
-        private string Pass;
-        public User(string username, string password)
-        {
-            UserName = username;
-            Pass = password;
-        }
         public string Name
         {
-            get { return UserName; }
-
-        }
-        private string Password
-        {
+            get { return Name; }
             set 
-            {
-                Pass = value;
+            { 
+                Name = value; 
             }
         }
-        public List<PlayList> playlists
+        public string Password
         {
+            set
+            {
+                Password = value;
+            }
+        }
+        public User(string username, string password)
+        {
+            this.Name = username;
+            this.Password = password;
+        }
+        public List<PlayList> playlists
+        {   
             get;
             set;
         }

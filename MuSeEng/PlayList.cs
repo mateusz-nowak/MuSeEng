@@ -13,7 +13,6 @@ namespace MuSeEng
         public PlayList(string name)
         {
             Name = name;
-            
         }
         public List<MP3> MP3s
         {
