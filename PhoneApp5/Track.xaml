@@ -1,0 +1,49 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp5.Track"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="278*"/>
+            <ColumnDefinition Width="65*"/>
+            <ColumnDefinition Width="137*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="26"/>
+            <RowDefinition Height="66"/>
+            <RowDefinition Height="46"/>
+            <RowDefinition Height="131*"/>
+            <RowDefinition Height="94*"/>
+            <RowDefinition Height="405*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28" Grid.ColumnSpan="3" Grid.RowSpan="3">
+            <TextBlock x:Name="PageTitle" Text="MuSeEng" Margin="97,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Height="100"/>
+        </StackPanel>
+        <Image HorizontalAlignment="Left" Height="85" Margin="17,19,0,0" VerticalAlignment="Top" Width="79" Source="/1370810011_multimedia-player.png" Grid.RowSpan="3"/>
+
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="3" Margin="12,0,12,0" Grid.RowSpan="3" Grid.ColumnSpan="3">
+            <Button Content="Powrot" HorizontalAlignment="Left" Margin="321,0,0,0" VerticalAlignment="Top" Click="Powrot" Background="#FF0072C1" Width="135"/>
+            <Button x:Name="DownloadBtn" Content="Pobierz" HorizontalAlignment="Left" Margin="-12,0,0,0" VerticalAlignment="Top" Click="Pobierz"/>
+            <TextBlock x:Name="title" HorizontalAlignment="Left" Margin="79,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="75" Width="377" FontSize="24"/>
+            <Image HorizontalAlignment="Left" Height="70" Margin="0,154,0,0" VerticalAlignment="Top" Width="63" Source="/1370812923_agt_mp3.png"/>
+            <Button Content="Dodaj do playlisty" HorizontalAlignment="Left" Margin="-12,72,0,0" VerticalAlignment="Top" Width="287" Background="#FFFFD100" Click="DodajDoPlaylisty"/>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

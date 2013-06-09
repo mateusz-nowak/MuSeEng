@@ -1,0 +1,18 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="PhoneApp5" EntryPointType="PhoneApp5.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="PhoneApp5" Source="PhoneApp5.dll" />
+    <AssemblyPart x:Name="Accord.Audio" Source="Accord.Audio.dll" />
+    <AssemblyPart x:Name="Accord.Audio.Formats" Source="Accord.Audio.Formats.dll" />
+    <AssemblyPart x:Name="Accord.Controls.Audio" Source="Accord.Controls.Audio.dll" />
+    <AssemblyPart x:Name="Accord" Source="Accord.dll" />
+    <AssemblyPart x:Name="Accord.Math" Source="Accord.Math.dll" />
+    <AssemblyPart x:Name="Accord.Statistics" Source="Accord.Statistics.dll" />
+    <AssemblyPart x:Name="AForge.Controls" Source="AForge.Controls.dll" />
+    <AssemblyPart x:Name="AForge" Source="AForge.dll" />
+    <AssemblyPart x:Name="AForge.Imaging" Source="AForge.Imaging.dll" />
+    <AssemblyPart x:Name="AForge.Math" Source="AForge.Math.dll" />
+    <AssemblyPart x:Name="AForge.Video" Source="AForge.Video.dll" />
+    <AssemblyPart x:Name="Newtonsoft.Json" Source="Newtonsoft.Json.dll" />
+    <AssemblyPart x:Name="ServiceStack.Text.WP" Source="ServiceStack.Text.WP.dll" />
+  </Deployment.Parts>
+</Deployment>

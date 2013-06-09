@@ -1,0 +1,47 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="PhoneApp5.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="PageTitle" Text="MuSeEng" Margin="97,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Height="100"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBox x:Name="searchField" HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" VerticalAlignment="Top" Width="456" Text="peja" Margin="-1,33,0,0"/>
+            <Button Content="Szukaj" HorizontalAlignment="Left" Margin="331,100,0,0" VerticalAlignment="Top" Click="Szukaj" Background="#FF0051FF"/>
+            <TextBlock HorizontalAlignment="Left" Margin="9,1,0,0" TextWrapping="Wrap" Text="Szybkie wyszukiwanie utworu:" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Foreground="#FF0068FF"/>
+            <Rectangle Fill="White" HorizontalAlignment="Left" Height="192" Margin="1,227,0,0" Stroke="Black" VerticalAlignment="Top" Width="225"/>
+            <TextBlock HorizontalAlignment="Left" Margin="128,385,0,0" TextWrapping="Wrap" Text="Statystyki" VerticalAlignment="Top" Foreground="#FF303030" FontWeight="Bold"/>
+            <Image HorizontalAlignment="Left" Height="158" Margin="9,236,0,0" VerticalAlignment="Top" Width="153" Source="/1370809754_Stats.png"/>
+            <Rectangle Fill="#FFDDF1FF" HorizontalAlignment="Left" Height="192" Margin="233,227,0,0" Stroke="Black" VerticalAlignment="Top" Width="220"/>
+            <TextBlock HorizontalAlignment="Left" Margin="371,389,0,0" TextWrapping="Wrap" Text="Playlista" VerticalAlignment="Top" Foreground="#FF303030" FontWeight="Bold"/>
+            <Image HorizontalAlignment="Left" Height="158" Margin="256,236,0,0" VerticalAlignment="Top" Width="153" Source="/1370809954_playlist.png"/>
+        </Grid>
+        <Image HorizontalAlignment="Left" Height="85" Margin="17,19,0,0" VerticalAlignment="Top" Width="79" Source="/1370810011_multimedia-player.png"/>
+    </Grid>
+
+</phone:PhoneApplicationPage>
