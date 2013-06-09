@@ -12,11 +12,11 @@ namespace PhoneApp5.Entities
          * 1 when true
          * 0 when false
          */
-        public int next;
+        public int Next;
 
         /**
          * List of found tracks for current page
          */
-        public List<Track> tracks = new List<Track>();
+        public List<Track> Tracks = new List<Track>();
     }
 }

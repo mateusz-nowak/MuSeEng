@@ -16,7 +16,6 @@ namespace PhoneApp5
 {
     public partial class MainPage : PhoneApplicationPage
     {
-        // Constructor
         public MainPage()
         {
             InitializeComponent();
@@ -36,8 +35,8 @@ namespace PhoneApp5
                 return;
             }
 
-            GlobalVariables.phrase = searchFieldContent;
-            NavigationService.Navigate(new Uri("/Results.xaml", UriKind.Relative));
+            GlobalVariables.Phrase = searchFieldContent;
+            NavigationService.Navigate(new Uri("/Views/ResultsView.xaml", UriKind.Relative));
         }
     }
 }

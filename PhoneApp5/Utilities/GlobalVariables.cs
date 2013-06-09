@@ -8,7 +8,7 @@ namespace PhoneApp5.Utilities
 {
     class GlobalVariables
     {
-        public static string phrase;
-        public static Entities.Track track;
+        public static string Phrase;
+        public static Entities.Track CurrentTrack;
     }
 }

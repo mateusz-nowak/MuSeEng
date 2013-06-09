@@ -10,32 +10,32 @@ namespace PhoneApp5.Entities
         /**
          * Handles the track Id
          */
-        public int id;
+        public int Id;
         
         /**
          * Handles the Track Title
          */
-        public String title;
+        public String Title;
         
         /**
          * Handles the remote key
          */
-        public String remote;
+        public String Remote;
         
         /**
          * Handles the slugified title
          */
-        public String slug;
+        public String Slug;
         
         /**
          * Handles the relative uri to the web page
          * Where you can download track
          */
-        public String show;
+        public String Show;
 
         /**
          * Handles the relative download Uri
          */
-        public String download;
+        public String Download;
     }
 }
