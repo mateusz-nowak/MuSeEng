@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuSeEng", "MuSeEng\MuSeEng.csproj", "{b6136b13-50ae-4d8c-986c-6ca1b400a289}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6136B13-50AE-4D8C-986C-6CA1B400A289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6136B13-50AE-4D8C-986C-6CA1B400A289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6136B13-50AE-4D8C-986C-6CA1B400A289}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B6136B13-50AE-4D8C-986C-6CA1B400A289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6136B13-50AE-4D8C-986C-6CA1B400A289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6136B13-50AE-4D8C-986C-6CA1B400A289}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

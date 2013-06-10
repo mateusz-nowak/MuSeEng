@@ -101,21 +101,22 @@ namespace PhoneApp5.Views
          */
         private void OpenReadCompleted(object sender, OpenReadCompletedEventArgs e)
         {
+            
+            System.IO.Directory.CreateDirectory("MuSeEng");
             System.IO.IsolatedStorage.IsolatedStorageFile local =
-                System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForApplication();
+               System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForApplication();
 
-            if (!local.DirectoryExists("Mp3s"))
+            if (!System.IO.Directory.Exists("MuSeEng"))
             {
-                local.CreateDirectory("Mp3s");
+                System.IO.Directory.CreateDirectory("MuSeEng");
             }
 
-            string location = "Mp3s\\" + GlobalVariables.CurrentTrack.Title + ".mp3";
+            string location = "SD card/MuSeEng" + GlobalVariables.CurrentTrack.Title + ".mp3";
 
             using (var isoFileStream =
                     new System.IO.IsolatedStorage.IsolatedStorageFileStream(
                         location,
-                        System.IO.FileMode.OpenOrCreate,
-                            local))
+                        System.IO.FileMode.OpenOrCreate,local))
             {
                 if (isoFileStream.Length != 0)
                 {
