@@ -102,3 +102,4 @@ C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\zh-Hant\System.Windows.In
 C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\PhoneApp5.dll
 C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\PhoneApp5.pdb
 C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\XapCacheFile.xml
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\Views\StatView.g.cs

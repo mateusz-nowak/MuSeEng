@@ -43,6 +43,7 @@
             <TextBlock x:Name="title" HorizontalAlignment="Left" Margin="79,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="75" Width="377" FontSize="24"/>
             <Image HorizontalAlignment="Left" Height="70" Margin="0,154,0,0" VerticalAlignment="Top" Width="63" Source="/1370812923_agt_mp3.png"/>
             <Button Content="Dodaj do playlisty" HorizontalAlignment="Left" Margin="-12,72,0,0" VerticalAlignment="Top" Width="287" Background="#FFFFD100" Click="DodajDoPlaylisty"/>
+            <MediaElement HorizontalAlignment="Left" Height="100" Margin="10,297,0,0" VerticalAlignment="Top" Width="100"/>
         </Grid>
     </Grid>
 

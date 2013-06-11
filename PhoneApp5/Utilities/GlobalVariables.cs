@@ -10,5 +10,6 @@ namespace PhoneApp5.Utilities
     {
         public static string Phrase;
         public static Entities.Track CurrentTrack;
+        public static int type = 0;
     }
 }

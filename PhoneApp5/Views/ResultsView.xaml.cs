@@ -31,7 +31,7 @@ namespace PhoneApp5.Views
             mainGrid.Children.Clear();
             loader.Visibility = System.Windows.Visibility.Visible;
 
-            string str = "http://pastebin.com/raw.php?i=uEHPdxcm";
+            string str = "http://mp3filmy.pl/track/search.json?q=" + HttpUtility.UrlEncode(GlobalVariables.Phrase) + "&page=" + page.ToString();
 
             WebClient client = new WebClient();
             client.DownloadStringCompleted += (sender, e) =>
@@ -67,10 +67,25 @@ namespace PhoneApp5.Views
                         if (tr.Id.ToString().CompareTo((sender as TextBlock).Tag.ToString()) == 0)
                         {
                             GlobalVariables.CurrentTrack = tr;
-                            NavigationService.Navigate(new Uri("/Views/TrackView.xaml", UriKind.Relative));
+                            //NavigationService.Navigate(new Uri("/Views/TrackView.xaml", UriKind.Relative));
+                            // MessageBox.Show("Odtwarzam: http://mp3filmy.pl" + tr.Download);
+                            MediaElement media = new MediaElement();
+                            try
+                            {
+                                media.Source = new Uri("http://mp3filmy.pl" + tr.Download, UriKind.Absolute);
+                            }
+                            catch (Exception ex)
+                            {
+                                MessageBox.Show(ex.Message);
+                            }
+                            media.Play();
                             break;
                         }
                     }
+                };
+                tb.Hold += (sender, e) =>
+                {
+
                 };
 
                 mainGrid.Children.Add(tb);
