@@ -1,11 +1,5 @@
-﻿<xapCache source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\PhoneApp5.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2013-06-11 13:24:00">
-  <file source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013-06-11 11:20:02" />
-  <file source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\museng.png" archivePath="museng.png" lastWriteTime="2013-06-10 20:35:14" />
-  <file source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\museng.png" archivePath="museng.png" lastWriteTime="2013-06-10 20:35:14" />
-  <file source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\PhoneApp5.dll" archivePath="PhoneApp5.dll" lastWriteTime="2013-06-11 13:24:00" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="2011-08-17 02:48:22" />
-  <file source="C:\Users\guziaster\Desktop\MuSeEng\packages\Newtonsoft.Json.5.0.6\lib\portable-net40+sl4+wp7+win8\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="2013-06-09 21:03:33" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="2011-08-17 02:48:22" />
+﻿<xapCache source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\PhoneApp5_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2013-06-11 13:31:49">
+  <file source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\PhoneApp5.dll" archivePath="PhoneApp5.dll" lastWriteTime="2013-06-11 13:31:48" />
   <file source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\1370809754_Stats.png" archivePath="1370809754_Stats.png" lastWriteTime="2013-06-09 20:57:46" />
   <file source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\1370809954_playlist.png" archivePath="1370809954_playlist.png" lastWriteTime="2013-06-09 20:57:46" />
   <file source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\1370810011_multimedia-player.png" archivePath="1370810011_multimedia-player.png" lastWriteTime="2013-06-09 20:57:46" />
@@ -18,4 +12,12 @@
   <file source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013-06-09 21:03:41" />
   <file source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2013-06-09 20:57:46" />
   <file source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="2013-06-09 20:57:46" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="2011-08-17 02:48:22" />
+  <file source="C:\Users\guziaster\Desktop\MuSeEng\packages\Newtonsoft.Json.5.0.6\lib\portable-net40+sl4+wp7+win8\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="2013-06-09 21:03:33" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="2011-08-17 02:48:22" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\Microsoft.Expression.Interactions.xml" archivePath="Microsoft.Expression.Interactions.xml" lastWriteTime="2011-08-17 02:30:38" />
+  <file source="C:\Users\guziaster\Desktop\MuSeEng\packages\Newtonsoft.Json.5.0.6\lib\portable-net40+sl4+wp7+win8\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="2013-06-09 21:03:33" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\System.Windows.Interactivity.xml" archivePath="System.Windows.Interactivity.xml" lastWriteTime="2011-08-17 02:30:36" />
+  <file source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\museng.png" archivePath="museng.png" lastWriteTime="2013-06-10 20:35:14" />
+  <file source="C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013-06-11 13:31:49" />
 </xapCache>

@@ -74,7 +74,6 @@ C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\Background.png
 C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\PhoneApp5.dll
 C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\PhoneApp5.pdb
 C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\AppManifest.xaml
-C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\PhoneApp5.xap
 C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\Microsoft.Expression.Interactions.dll
 C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\Newtonsoft.Json.dll
 C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\System.Windows.Interactivity.dll
@@ -103,3 +102,5 @@ C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\PhoneApp5.dll
 C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\PhoneApp5.pdb
 C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\XapCacheFile.xml
 C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\Views\StatView.g.cs
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\PhoneApp5_Debug_AnyCPU.xap

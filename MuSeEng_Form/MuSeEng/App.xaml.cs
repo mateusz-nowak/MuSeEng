@@ -114,7 +114,7 @@ namespace MuSeEng
             if (Debugger.IsAttached)
             {
                 // A navigation has failed; break into the debugger
-                Debugger.Break();
+            Debugger.Break();
             }
         }
 

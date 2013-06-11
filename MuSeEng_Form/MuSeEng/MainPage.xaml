@@ -36,82 +36,62 @@
             CurrentUICulture of the app at run time.
          -->
 
-         <!--Panorama control-->
+        <!--Panorama control-->
         <phone:Panorama x:Name="MuSeEng" Title="MuSeEng" Foreground="White">
             <phone:Panorama.Background>
                 <ImageBrush ImageSource="/Audio-Glow-Music-Visualizer-Various-themes-and-customisations-5.png"/>
             </phone:Panorama.Background>
-        	<phone:PanoramaItem CacheMode="{x:Null}" Header="Szukaj">
-        		<phone:PanoramaItem.RenderTransform>
-        			<TranslateTransform/>
-        		</phone:PanoramaItem.RenderTransform>
-        		<Grid>
-        			<Button Content="Szukaj&#xD;&#xA;" HorizontalAlignment="Right" Height="75" Margin="0,-24,0,0" VerticalAlignment="Top" Width="136" RenderTransformOrigin="0.603,-0.147" FontFamily="Segoe WP Semibold" BorderBrush="#FF8B6A6A" Foreground="White">
-        				<Button.Background>
-        					<SolidColorBrush Color="#99802428"/>
-        				</Button.Background>
-        			</Button>
-        			<TextBox HorizontalAlignment="Left" Height="72" Margin="-10,-26,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="294" SelectionForeground="Black" Foreground="White" BorderBrush="White">
-        				<TextBox.SelectionBackground>
-        					<SolidColorBrush Color="{StaticResource PhoneBackgroundColor}"/>
-        				</TextBox.SelectionBackground>
-        				<TextBox.Background>
-        					<SolidColorBrush Color="#99000000"/>
-        				</TextBox.Background>
-        			</TextBox>
-        			<TextBlock HorizontalAlignment="Left" Height="422" Margin="10,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" FontSize="29.333">
-        				<Run Text="TextBlock"/>
-        				<LineBreak/>
-        				<Run Text="sdf"/>
-        				<LineBreak/>
-        				<Run Text="sdf"/>
-        				<LineBreak/>
-        				<Run Text="sdf"/>
-        				<LineBreak/>
-        				<Run Text="sdf"/>
-        				<LineBreak/>
-        				<Run Text="sdf"/>
-        				<LineBreak/>
-        				<Run Text="sdf"/>
-        				<LineBreak/>
-        				<Run Text="sdf"/>
-        				<LineBreak/>
-        				<Run Text="sdf"/>
-        				<LineBreak/>
-        				<Run Text="sdf"/>
-        				<LineBreak/>
-        				<Run Text="sdf"/>
-        				<LineBreak/>
-        				<Run Text="sdf"/>
-        				<LineBreak/>
-        				<Run/>
-        			</TextBlock>
-        		</Grid>
-        	</phone:PanoramaItem>
-        	<phone:PanoramaItem CacheMode="{x:Null}" Header="Playlists">
-        		<phone:PanoramaItem.RenderTransform>
-        			<TranslateTransform/>
-        		</phone:PanoramaItem.RenderTransform>
-        		<Grid HorizontalAlignment="Left" Height="504" Margin="8,-28,0,0" VerticalAlignment="Top" Width="392">
-        			<TextBlock HorizontalAlignment="Left" Height="504" Margin="10,0,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="382" FontSize="29.333"/>
-        		</Grid>
-        	</phone:PanoramaItem>
-        	<phone:PanoramaItem CacheMode="{x:Null}" Foreground="White" Header="Statystyki" Width="438">
-        		<phone:PanoramaItem.RenderTransform>
-        			<TranslateTransform/>
-        		</phone:PanoramaItem.RenderTransform>
-        		<Grid>
-        			<TextBlock HorizontalAlignment="Left" Height="463" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406" FontSize="29.333">
-        				<Run Text="House"/>
-        				<LineBreak/>
-        				<Run Text="Trance"/>
-        				<LineBreak/>
-        				<Run Text="Dance"/>
-        				<LineBreak/>
-        				<Run Text="Hip-hop"/>
-        			</TextBlock>
-        		</Grid>
-        	</phone:PanoramaItem>
+            <phone:PanoramaItem x:Name="mainPanorama" CacheMode="{x:Null}" Header="Szukaj">
+                <phone:PanoramaItem.RenderTransform>
+                    <TranslateTransform/>
+                </phone:PanoramaItem.RenderTransform>
+                <Grid>
+                    <Button Content="Szukaj&#xD;&#xA;" HorizontalAlignment="Right" Height="75" Margin="0,-24,0,0" VerticalAlignment="Top" Width="136" RenderTransformOrigin="0.603,-0.147" FontFamily="Segoe WP Semibold" BorderBrush="#FF8B6A6A" Foreground="White" Click="SearchClick">
+                        <Button.Background>
+                            <SolidColorBrush Color="#99802428"/>
+                        </Button.Background>
+                    </Button>
+                    <TextBox x:Name="searchField" HorizontalAlignment="Left" Height="72" Margin="-10,-26,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="294" SelectionForeground="Black" Foreground="White" BorderBrush="White">
+                        <TextBox.SelectionBackground>
+                            <SolidColorBrush Color="{StaticResource PhoneBackgroundColor}"/>
+                        </TextBox.SelectionBackground>
+                        <TextBox.Background>
+                            <SolidColorBrush Color="#99000000"/>
+                        </TextBox.Background>
+                    </TextBox>
+                    <Grid x:Name="mainGrid" HorizontalAlignment="Left" Height="437" Margin="0,46,0,0" VerticalAlignment="Top" Width="420"/>
+                </Grid>
+            </phone:PanoramaItem>
+            <phone:PanoramaItem CacheMode="{x:Null}" Header="Playlists">
+                <phone:PanoramaItem.RenderTransform>
+                    <TranslateTransform/>
+                </phone:PanoramaItem.RenderTransform>
+                <Grid x:Name="playlistMainGrid" HorizontalAlignment="Left" Height="483" VerticalAlignment="Top" Width="420"/>
+            </phone:PanoramaItem>
+            <phone:PanoramaItem CacheMode="{x:Null}" Foreground="White" Header="Statystyki" Width="438">
+                <phone:PanoramaItem.RenderTransform>
+                    <TranslateTransform/>
+                </phone:PanoramaItem.RenderTransform>
+                <Grid>
+                    <phone:Panorama HorizontalAlignment="Left" Height="483" Margin="10,0,-10,0" Title="" VerticalAlignment="Top" Width="426">
+                        <phone:PanoramaItem x:Name="itemDance" CacheMode="{x:Null}" Header="Dance" Foreground="White">
+                            <phone:PanoramaItem.RenderTransform>
+                                <TranslateTransform/>
+                            </phone:PanoramaItem.RenderTransform>
+                            <Grid x:Name="gridDance"/>
+                        </phone:PanoramaItem>
+                        <phone:PanoramaItem x:Name="itemTechno" CacheMode="{x:Null}" Header="Techno" Foreground="White">
+                            <phone:PanoramaItem.RenderTransform>
+                                <TranslateTransform/>
+                            </phone:PanoramaItem.RenderTransform>
+                            <Grid x:Name="gridTechno"/>
+                        </phone:PanoramaItem>
+                        <phone:PanoramaItem x:Name="itemHipHop" Header="Hip-Hop" Foreground="White">
+                            <Grid x:Name="gridHipHop"/>
+                        </phone:PanoramaItem>
+                    </phone:Panorama>
+                </Grid>
+            </phone:PanoramaItem>
 
             <!--Panorama item one-->
 
