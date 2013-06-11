@@ -31,7 +31,9 @@
         <Button Content="Hip-hop" HorizontalAlignment="Left" Margin="0,137,0,0" VerticalAlignment="Top" Click="ChangeType" Grid.RowSpan="3"/>
         <Button Content="Dance" HorizontalAlignment="Left" Margin="146,137,0,0" VerticalAlignment="Top" Grid.RowSpan="3" Click="ChangeType"/>
         <Button Content="Techno" HorizontalAlignment="Left" Margin="266,137,0,0" VerticalAlignment="Top" Grid.RowSpan="3" Click="ChangeType"/>
-        <Grid x:Name="mainGrid" HorizontalAlignment="Left" Height="522" Margin="17,108,0,0" Grid.Row="2" VerticalAlignment="Top" Width="453"/>
+        <Grid x:Name="mainGrid" HorizontalAlignment="Left" Height="522" Margin="17,108,0,0" Grid.Row="2" VerticalAlignment="Top" Width="453">
+            <Button Content="Button" HorizontalAlignment="Left" Margin="159,31,0,0" VerticalAlignment="Top"/>
+        </Grid>
 
         <!--ContentPanel - place additional content here-->
 

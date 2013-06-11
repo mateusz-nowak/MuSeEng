@@ -9,9 +9,9 @@ using System.Resources;
 [assembly: AssemblyTitle("MuSeEng")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Guzia & Nowak Company")]
 [assembly: AssemblyProduct("MuSeEng")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyCopyright("Copyright by Guzia & Nowak ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -34,4 +34,4 @@ using System.Resources;
 // by using the '*' as shown below:
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: NeutralResourcesLanguageAttribute("en-US")]
+[assembly: NeutralResourcesLanguageAttribute("pl")]
