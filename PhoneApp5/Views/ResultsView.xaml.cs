@@ -18,12 +18,13 @@ namespace PhoneApp5.Views
     {
         private int page = 1;
         private Result result;
-
+        MediaElement media = new MediaElement();
         public Results()
         {
             InitializeComponent();
 
             Search(GlobalVariables.Phrase, page);
+            LayoutRoot.Children.Add(media);
         }
 
         private void Search(string phrase, int page)
@@ -36,8 +37,14 @@ namespace PhoneApp5.Views
             WebClient client = new WebClient();
             client.DownloadStringCompleted += (sender, e) =>
             {
-                result = JsonConvert.DeserializeObject<Result>(e.Result);
-
+                try
+                {
+                    result = JsonConvert.DeserializeObject<Result>(e.Result);
+                }
+                catch (WebException Ex)
+                {
+                    MessageBox.Show(Ex.Message);
+                }
                 loader.Visibility = System.Windows.Visibility.Collapsed;
                 nextPage.Visibility = result.Next == 1 ? System.Windows.Visibility.Visible : System.Windows.Visibility.Collapsed;
                 prevPage.Visibility = page == 1 ? System.Windows.Visibility.Collapsed : System.Windows.Visibility.Visible;
@@ -69,16 +76,21 @@ namespace PhoneApp5.Views
                             GlobalVariables.CurrentTrack = tr;
                             //NavigationService.Navigate(new Uri("/Views/TrackView.xaml", UriKind.Relative));
                             // MessageBox.Show("Odtwarzam: http://mp3filmy.pl" + tr.Download);
-                            MediaElement media = new MediaElement();
+                            
                             try
                             {
-                                media.Source = new Uri("http://mp3filmy.pl" + tr.Download, UriKind.Absolute);
+                                
+                                media.Stop();
+                                MessageBox.Show("KLIK");
+                                media.Source = new Uri("http://mp3filmy.pl" + tr.Download, UriKind.RelativeOrAbsolute);
+                                media.AutoPlay = true;
+                                media.Play();
                             }
                             catch (Exception ex)
                             {
                                 MessageBox.Show(ex.Message);
                             }
-                            media.Play();
+                            
                             break;
                         }
                     }
@@ -92,6 +104,11 @@ namespace PhoneApp5.Views
 
                 ++id;
             }
+        }
+
+        void media_DownloadProgressChanged(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(e.ToString());
         }
 
         private void Powrot(object sender, RoutedEventArgs e)
