@@ -1,0 +1,45 @@
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\Bin\Debug\MuSeEng.dll
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\Bin\Debug\MuSeEng.pdb
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\Bin\Debug\AppManifest.xaml
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\Bin\Debug\MuSeEng_Debug_AnyCPU.xap
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\obj\Debug\App.g.cs
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\obj\Debug\MainPage.g.cs
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\obj\Debug\MuSeEng.g.resources
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\obj\Debug\MuSeEng.Resources.AppResources.resources
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\obj\Debug\MuSeEng.csproj.GenerateResource.Cache
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\obj\Debug\MuSeEng.dll
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\obj\Debug\MuSeEng.pdb
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\obj\Debug\XapCacheFile.xml
+C:\Users\guziaster\Documents\Visual Studio 2012\Projects\MuSeEng\MuSeEng\Bin\Debug\Audio-Glow-Music-Visualizer-Various-themes-and-customisations-5.png
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\Audio-Glow-Music-Visualizer-Various-themes-and-customisations-5.png
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\MuSeEng.dll
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\MuSeEng.pdb
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\AppManifest.xaml
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\obj\Debug\App.g.cs
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\obj\Debug\MainPage.g.cs
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\obj\Debug\MuSeEng.g.resources
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\obj\Debug\MuSeEng.Resources.AppResources.resources
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\obj\Debug\MuSeEng.csproj.GenerateResource.Cache
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\obj\Debug\MuSeEng.dll
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\obj\Debug\MuSeEng.pdb
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\obj\Debug\XapCacheFile.xml
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\obj\Debug\MuSeEng.csprojResolveAssemblyReference.cache
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\guziaster\Desktop\MuSeEng\MuSeEng_Form\MuSeEng\Bin\Debug\MuSeEng.xap

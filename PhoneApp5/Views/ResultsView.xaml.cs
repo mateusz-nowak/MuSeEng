@@ -18,12 +18,13 @@ namespace PhoneApp5.Views
     {
         private int page = 1;
         private Result result;
-
+        MediaElement media = new MediaElement();
         public Results()
         {
             InitializeComponent();
 
             Search(GlobalVariables.Phrase, page);
+            LayoutRoot.Children.Add(media);
         }
 
         private void Search(string phrase, int page)
@@ -31,13 +32,19 @@ namespace PhoneApp5.Views
             mainGrid.Children.Clear();
             loader.Visibility = System.Windows.Visibility.Visible;
 
-            string str = "http://pastebin.com/raw.php?i=uEHPdxcm";
+            string str = "http://mp3filmy.pl/track/search.json?q=" + HttpUtility.UrlEncode(GlobalVariables.Phrase) + "&page=" + page.ToString();
 
             WebClient client = new WebClient();
             client.DownloadStringCompleted += (sender, e) =>
             {
-                result = JsonConvert.DeserializeObject<Result>(e.Result);
-
+                try
+                {
+                    result = JsonConvert.DeserializeObject<Result>(e.Result);
+                }
+                catch (WebException Ex)
+                {
+                    MessageBox.Show(Ex.Message);
+                }
                 loader.Visibility = System.Windows.Visibility.Collapsed;
                 nextPage.Visibility = result.Next == 1 ? System.Windows.Visibility.Visible : System.Windows.Visibility.Collapsed;
                 prevPage.Visibility = page == 1 ? System.Windows.Visibility.Collapsed : System.Windows.Visibility.Visible;
@@ -67,16 +74,41 @@ namespace PhoneApp5.Views
                         if (tr.Id.ToString().CompareTo((sender as TextBlock).Tag.ToString()) == 0)
                         {
                             GlobalVariables.CurrentTrack = tr;
-                            NavigationService.Navigate(new Uri("/Views/TrackView.xaml", UriKind.Relative));
+                            //NavigationService.Navigate(new Uri("/Views/TrackView.xaml", UriKind.Relative));
+                            // MessageBox.Show("Odtwarzam: http://mp3filmy.pl" + tr.Download);
+                            
+                            try
+                            {
+                                
+                                media.Stop();
+                                MessageBox.Show("KLIK");
+                                media.Source = new Uri("http://mp3filmy.pl" + tr.Download, UriKind.RelativeOrAbsolute);
+                                media.AutoPlay = true;
+                                media.Play();
+                            }
+                            catch (Exception ex)
+                            {
+                                MessageBox.Show(ex.Message);
+                            }
+                            
                             break;
                         }
                     }
+                };
+                tb.Hold += (sender, e) =>
+                {
+
                 };
 
                 mainGrid.Children.Add(tb);
 
                 ++id;
             }
+        }
+
+        void media_DownloadProgressChanged(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(e.ToString());
         }
 
         private void Powrot(object sender, RoutedEventArgs e)

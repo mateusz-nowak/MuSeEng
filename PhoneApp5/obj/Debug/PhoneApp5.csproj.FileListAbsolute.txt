@@ -62,3 +62,45 @@ C:\Users\Mateusz\documents\visual studio 2012\Projects\PhoneApp5\PhoneApp5\Bin\D
 C:\Users\Mateusz\documents\visual studio 2012\Projects\PhoneApp5\PhoneApp5\obj\Debug\Views\PlaylistView.g.cs
 C:\Users\Mateusz\documents\visual studio 2012\Projects\PhoneApp5\PhoneApp5\obj\Debug\Views\ResultsView.g.cs
 C:\Users\Mateusz\documents\visual studio 2012\Projects\PhoneApp5\PhoneApp5\obj\Debug\Views\TrackView.g.cs
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\PhoneApp5.csprojResolveAssemblyReference.cache
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\App.g.cs
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\MainPage.g.cs
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\Views\PlaylistView.g.cs
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\Views\ResultsView.g.cs
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\Views\TrackView.g.cs
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\PhoneApp5.g.resources
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\ApplicationIcon.png
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\Background.png
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\PhoneApp5.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\PhoneApp5.pdb
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\AppManifest.xaml
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\PhoneApp5.dll
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\PhoneApp5.pdb
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\XapCacheFile.xml
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\obj\Debug\Views\StatView.g.cs
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\guziaster\Desktop\MuSeEng\PhoneApp5\Bin\Debug\PhoneApp5_Debug_AnyCPU.xap

@@ -35,9 +35,27 @@
             <TextBox x:Name="searchField" HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" VerticalAlignment="Top" Width="456" Text="peja" Margin="-1,33,0,0"/>
             <Button Content="Szukaj" HorizontalAlignment="Left" Margin="331,100,0,0" VerticalAlignment="Top" Click="Szukaj" Background="#FF0051FF"/>
             <TextBlock HorizontalAlignment="Left" Margin="9,1,0,0" TextWrapping="Wrap" Text="Szybkie wyszukiwanie utworu:" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Foreground="#FF0068FF"/>
-            <Rectangle Fill="White" HorizontalAlignment="Left" Height="192" Margin="1,227,0,0" Stroke="Black" VerticalAlignment="Top" Width="225"/>
-            <TextBlock HorizontalAlignment="Left" Margin="128,385,0,0" TextWrapping="Wrap" Text="Statystyki" VerticalAlignment="Top" Foreground="#FF303030" FontWeight="Bold"/>
-            <Image HorizontalAlignment="Left" Height="158" Margin="9,236,0,0" VerticalAlignment="Top" Width="153" Source="/1370809754_Stats.png"/>
+            <Rectangle Fill="White" HorizontalAlignment="Left" Height="192" Margin="1,227,0,0" Stroke="Black" VerticalAlignment="Top" Width="225">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <ec:NavigateToPageAction TargetPage="/Views/StatView.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Rectangle>
+            <TextBlock HorizontalAlignment="Left" Margin="128,385,0,0" TextWrapping="Wrap" Text="Statystyki" VerticalAlignment="Top" Foreground="#FF303030" FontWeight="Bold">
+            	<i:Interaction.Triggers>
+            		<i:EventTrigger EventName="MouseLeftButtonDown">
+            			<ec:NavigateToPageAction TargetPage="/Views/StatView.xaml"/>
+            		</i:EventTrigger>
+            	</i:Interaction.Triggers>
+            </TextBlock>
+            <Image HorizontalAlignment="Left" Height="158" Margin="9,236,0,0" VerticalAlignment="Top" Width="153" Source="/1370809754_Stats.png">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <ec:NavigateToPageAction TargetPage="/Views/StatView.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Image>
             <Rectangle Fill="#FFDDF1FF" HorizontalAlignment="Left" Height="192" Margin="233,227,0,0" Stroke="Black" VerticalAlignment="Top" Width="220">
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="MouseLeftButtonDown">
